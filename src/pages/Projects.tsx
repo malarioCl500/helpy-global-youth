@@ -94,8 +94,8 @@ const Projects = () => {
     const matchesSearch = project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          project.organization.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          project.location.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCountry = !selectedCountry || project.location.includes(selectedCountry);
-    const matchesCategory = !selectedCategory || project.category === selectedCategory;
+    const matchesCountry = !selectedCountry || selectedCountry === "all" || project.location.includes(selectedCountry);
+    const matchesCategory = !selectedCategory || selectedCategory === "all" || project.category === selectedCategory;
     
     return matchesSearch && matchesCountry && matchesCategory;
   });
@@ -130,7 +130,7 @@ const Projects = () => {
                 <SelectValue placeholder="Land wählen" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Alle Länder</SelectItem>
+                <SelectItem value="all">Alle Länder</SelectItem>
                 {countries.map(country => (
                   <SelectItem key={country} value={country}>{country}</SelectItem>
                 ))}
@@ -141,7 +141,7 @@ const Projects = () => {
                 <SelectValue placeholder="Kategorie wählen" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Alle Kategorien</SelectItem>
+                <SelectItem value="all">Alle Kategorien</SelectItem>
                 {categories.map(category => (
                   <SelectItem key={category} value={category}>{category}</SelectItem>
                 ))}
