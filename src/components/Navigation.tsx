@@ -25,7 +25,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/22e1777b-1976-46c9-baa8-7f3b03eff7dd.png" 
               alt="Helpy Logo" 
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 
