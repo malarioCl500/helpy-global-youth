@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { ArrowRight, Globe, Heart, Shield, Star, Users, Award, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -56,7 +55,7 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-              Freiwillig. <span className="text-primary-600">Fair.</span> <span className="text-secondary-600">Global.</span>
+              Weltweit helfen. <span className="text-primary-600">Sinnvoll wirken.</span> <span className="text-secondary-600">Echt wachsen.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 animate-slide-up">
               Finde sinnvolle Freiwilligenprojekte weltweit – ohne überteuerte Gebühren. 
