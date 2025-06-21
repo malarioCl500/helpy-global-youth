@@ -22,10 +22,11 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
-              <Globe className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">Helpy</span>
+            <img 
+              src="/lovable-uploads/22e1777b-1976-46c9-baa8-7f3b03eff7dd.png" 
+              alt="Helpy Logo" 
+              className="h-8 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
