@@ -12,7 +12,7 @@ const Index = () => {
     },
     {
       icon: Shield,
-      title: "Sicher & Verifiziert",
+      title: "Sicher & Verifiziert", 
       description: "Alle NGOs sind geprüft und verifiziert. Deine Sicherheit steht an erster Stelle."
     },
     {
@@ -206,6 +206,15 @@ const Index = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Disclaimer Footer */}
+      <section className="py-8 px-4 bg-gray-100 border-t">
+        <div className="container mx-auto text-center">
+          <p className="text-sm text-gray-600 max-w-4xl mx-auto">
+            <strong>Disclaimer:</strong> Diese Website ist ein ausgedachtes Projekt, das ausschließlich zu Studienzwecken im Rahmen einer Hochschulveranstaltung entwickelt wurde. Alle dargestellten Inhalte, Informationen und Angebote sind nicht echt, sondern dienen lediglich als Prototyp und Demo. Es handelt sich um keine reale Dienstleistung.
+          </p>
         </div>
       </section>
     </div>

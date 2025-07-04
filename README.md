@@ -1,8 +1,13 @@
+
 # Welcome to your Lovable project
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/d0c436ff-b695-4905-bc55-4a8c9d4e6b75
+
+## Disclaimer
+
+Diese Website ist ein ausgedachtes Projekt, das ausschließlich zu Studienzwecken im Rahmen einer Hochschulveranstaltung entwickelt wurde. Alle dargestellten Inhalte, Informationen und Angebote sind nicht echt, sondern dienen lediglich als Prototyp und Demo. Es handelt sich um keine reale Dienstleistung.
 
 ## How can I edit this code?
 
